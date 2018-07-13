@@ -4,13 +4,11 @@
      <meta charset="utf-8">
 </head>
 <body>
-  <?php
-    $password = $_GET["password"];
-    if($password == "1111"){
-        echo "주인님 환영합니다";
-    } else {
-        echo "뉘신지?";
-    }
-   ?>
+  <a href="index.html">학의재 딱 좋노 이기</a>
+  <form action="id.php">
+      <p>비밀번호를 입력해주세요.</p>
+      <input type="text" name="password">
+      <input type="submit">
+  </form>
 </body>
 </html>
